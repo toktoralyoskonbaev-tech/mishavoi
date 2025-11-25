@@ -3,84 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="static/style/style.css" />
+    <title>Мухамед Эшиев</title>
   </head>
-  <body style="background:gray;">
-    <table>
-      <tr>
-        <td>
-          <img src="korea.jpeg" width="200" alt="profile" />
-        </td>
-        <td>
-          <h1>Миша Таджик</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            animi nam officiis dolorem quidem tempore delectus placeat.
-            Accusantium esse
-            <em>neque alias voluptatem veritatis</em>, aperiam cupiditate
-            consectetur quos, quibusdam at laboriosam.
-          </p>
-        </td>
-      </tr>
-    </table>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="static/img/Фото профиля.png" alt="profile" class="avatar" />
+        <div class="info-text">
+        <h1>Мухамед Эшиев</h1>
+        <p>
+          Мен универсалдуу устамын: үй куруудан жана оңдоодон тарта, электр
+          монтаждарына, сантехникага, эмерек жасоого жана автооңдоого чейин
+          көптөгөн иштерди сапаттуу аткарам. Колумдан келбеген иш дээрлик жок
+          деп айта алам. Ишенимдүү, жоопкерчиликтүү жана так болууга аракет
+          кылам. Кардарларымдын ар бири менен узак мөөнөттүү ишенимдүү мамиле
+          түзүү мага маанилүү. Эгер сизге ишенимдүү мастер керек болсо —
+          кайрылыңыз.
+        </p>
+        <h2>Социалдык тармактарда</h2>
 
-    <hr size="5" noshade color="gray" />
+        <a href="http://instagramm.com" target="_blank">instagramm</a>
+        |
+        <a href="http://Telegramm.com" target="_blank">Telegramm</a>
+        </div>
+      </div>
 
-    <h2>Мос социальные сети</h2>
+      <div class="card bg-yellow">
+        <h2>Жумуштардын тизмеси</h2>
 
-    <ul>
-      <li><a href="http://instagramm.com" target="_blank">instagramm</a></li>
-      <li><a href="http://facebook.com" target="_blank">Telegramm</a></li>
-    </ul>
-    <hr />
-    <h2>Мое хобби</h2>
+        <ol class="list">
+          <li>Сантехника иштери</li>
+          <li>Электро монтаж</li>
+          <li>Эмерек чогултуу</li>
+        </ol>
+      </div>
+      <div class="contact">
+        <div class="card bg-green">
+          <h2>Мени менен байланыш</h2>
+          <form action="/">
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Атын жонугуз:</label>
+                <input type="text" id="name" placeholder="Аты жонугуз" />
+              </div>
+              <div class="form-group">
+                <label for="email">Электрондук почтаныз</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Электрондук почтаныз"
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="text">Айта тургна созунуз</label>
 
-    <ol>
-      <li>Кулака тепмей</li>
-      <li>Суета кылмай</li>
-    </ol>
-    <hr />
+              <textarea name="" id="text" cols="15" rows="2"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="choose" >Жазган созунуздун темасы</label>
+              <select name="" id="choose">
+                <option value="Website">Иш менен</option>
+                <option value="Android">Жон эле</option>
+                <option value="appl">Эрге тием</option>
+              </select>
+            </div>
+            <input type="submit" value="Жонотуу" id="button" />
+          </form>
+        </div>
+      </div>
+      <!-- Аткарылган жумуштар -->
+      <div class="card bg-yellow">
+        <h2>Аткарылшан жумуштар</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://www.youtube.com/watch?v=xbq9Jl_yrsU"
+              >Сантехника иштери</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=tjmVzMymBA8"
+              >Электро монтаж</a
+            >
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=-DK2CJaz5EI"
+              >Эмерек чогултуу</a
+            >
+          </li>
+        </ul>
+      </div>
 
-    <h2>Мени менен байланыш</h2>
-    <form action="/">
-      <label for="name">Атын ким</label>
-      <input type="text" id="name" placeholder="Атын жаз" />
-      <br />
-      <label for="email">Почтан кандай</label>
-      <input type="email" id="email" placeholder="почтаны бер" />
-      <br />
-          <label for="text">Айта турган созуну жаз</label>
-      <textarea name="" id="text" cols="15" rows="2"></textarea>
-      <br />
-      <label for="choose">Жазган созунун темасын танда</label>
-      <select name="" id="choose">
-        <option value="Website">Иш менен</option>
-        <option value="Android">Жон эде</option>
-        <option value="appl">Эрге тием</option>
-      </select>
-      <br>
-      <input type="submit" value="Жонот">
-    </form>
-    <hr />
-    <h2>Опыт работы</h2>
-    <table border="2">
-      <tr>
-        <th>Иштеген жерлерим</th>
-        <th>Позициям</th>
-        <th>Убактысы</th>
-      </tr>
-      <tr>
-        <td>Белайн</td>
-        <td>Завхоз</td>
-        <td>2017-2018</td>
-      </tr>
-      <tr>
-        <td>ИП Миша Таджик</td>
-        <td>Муж на час</td>
-        <td>2019 - азыркы убактка чеин</td>
-      </tr>
-    </table>
-    <hr />
+      <div class="card bg-red">
+        <h2>Тажрыйбам</h2>
+        <table class="table">
+          <tr>
+            <td>Белайн</td>
+            <td>Завхоз</td>
+            <td>2017-2018</td>
+          </tr>
+          <tr>
+            <td>Семетей</td>
+            <td>Завхоз</td>
+            <td>2018 - 2024</td>
+          </tr>
+          <tr>
+            <td>Жеке ишкер</td>
+            <td>Муж на час</td>
+            <td>2024 - азыркы убактка чеин</td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </body>
 </html>
-
