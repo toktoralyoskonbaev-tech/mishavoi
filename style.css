@@ -133,6 +133,11 @@ background: #e5e5e5;
     font-family: inherit;
     cursor: pointer;
 }
+#choose{
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 @media (max-width: 700px) {
     .info{
         display: block;
@@ -140,7 +145,7 @@ background: #e5e5e5;
     }
     .info-text{
         margin: auto;
-       
+       boder
     }
     
 }
